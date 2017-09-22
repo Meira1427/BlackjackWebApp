@@ -1,0 +1,131 @@
+* {
+    font-size: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #F9FAE3;
+    background-image: url("http://streaming.yayimages.com/images/photographer/ball-lunla/52385260a690ba642094f931204e1e9b/jack-queen-king-playing-cards-background.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 1.1 em;
+    text-align: justify;
+    margin: 0 3% 1% 3%;
+}
+
+h1, h2, h3, h5 {
+    font-family: Georgia, serif;
+    text-align: center;
+    line-height: .1em;
+    padding: 0;
+}
+
+h1, h2 {
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+h1.myTitle {
+    color: #F9FAE3;
+    text-align: left;
+    display: inline-block;
+    float: left;
+    margin: 2% 0 2% 3%;
+}
+
+div.header {
+    background-color: #a02a28;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+}
+
+#hidden_header {
+    width: 100%;
+    height: 80px;
+    visibility: hidden;
+}
+
+div.main {
+	clear: both;
+    background-color: #377a33;
+    border: 5px solid #401010;
+    width: 80%;
+    height: 50%;
+    margin: 1% 7%;
+    padding: 3%;
+}
+
+input[type="submit"]{
+	font-weight: 500;
+	font-size: 1em;
+	text-align: center;
+	background-color: #d1202a;
+	padding: 2%;
+}
+
+input[name="hit"], input[name="hit1"], input[name="hit2"], input[name="yes"]{
+	margin: 0 0 0 42%;
+}
+
+input[name="stay"], input[name="stay1"], input[name="stay2"], input[name="no"]{
+	margin-left: 1%;
+}
+
+div#navbar {
+	list-style-type: none;
+	padding: 0;
+	vertical-align: center;
+}
+
+div#navbar a {
+    background-color: inherit;
+}
+
+div#navbar a input[type="submit"] {
+    font-family: Georgia, Times, serif;
+    font-weight: 600;
+    font-size: .9em;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: #D9E6D8;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    padding: 1% 0 1% 0;
+    width: 12%;
+    margin: 1% 1% 0 0;
+}
+
+a.colorButton input{
+	background-color: #10243a;
+    border: 1px solid #10243a;
+}
+
+a.colorButton input:hover {
+	background-color: #8b3d7b;
+    border: 1px solid #8b3d7b;
+}
+
+a.colorButton input:active {
+	background-color: #3f4156;
+    border: 1px solid #3f4156;
+}

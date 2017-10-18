@@ -13,16 +13,16 @@
    <div class="header">
        <h1 class="myTitle">Blackjack</h1>
       <div id="navbar">
-       <a href="#" class="colorButton"><input type="submit" value="Choice 3"></input></a>
-       <a href="#" class="colorButton"><input type="submit" value="Choice 2"></input></a>
+       <!-- <a href="#" class="colorButton"><input type="submit" value="Choice 3"></input></a>
+       <a href="#" class="colorButton"><input type="submit" value="Choice 2"></input></a> -->
        <a href="newgame.do" class="colorButton"><input type="submit" value="New Game"></input></a>
        </div>
    </div>
    <div id="hidden_header">
        <h1 class="myTitle">Blackjack</h1>
        <div id="navbar">
-       <a href="#" class="colorButton"><input type="submit" value="Choice 3"></input></a>
-       <a href="#" class="colorButton"><input type="submit" value="Choice 2"></input></a>
+       <!-- <a href="#" class="colorButton"><input type="submit" value="Choice 3"></input></a>
+       <a href="#" class="colorButton"><input type="submit" value="Choice 2"></input></a> -->
        <a href="#" class="colorButton"><input type="submit" value="Choice 1"></input></a>
        </div>
    </div>
